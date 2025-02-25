@@ -28,6 +28,11 @@
             justify-content: center;
             align-items: center;
         }
+        /* Add some spacing for the Captain icon */
+        .captain-icon {
+            font-size: 24px; /* Size of the badge emoji */
+            margin: 0 10px; /* Spacing between badge and text */
+        }
         /* Add some spacing for the Fireball icon */
         .fireball-icon {
             font-size: 24px; /* Size of the fireball emoji */
@@ -58,18 +63,22 @@
 </header>
 
 <section>
-    <div class="sub-header">Sean Day (Capt.)</div>
+    <div class="sub-header">
+        <span class="captain-icon">🎖️</span> <!-- Captain icon to the left -->
+        Sean Day (Capt.)
+        <span class="captain-icon">🎖️</span> <!-- Captain icon to the right -->
+    </div>
     <div class="sub-header">Michael Urbacz (Vice Capt.)</div>
-    <div class="sub-header">Olly Brooks</div>
-    <div class="sub-header">Gaz Rogers</div>
-    <div class="sub-header">Greg Crowson</div>
-    <div class="sub-header">Dean Nixon</div>
-    <div class="sub-header">Andy Saxton</div>
     <div class="sub-header">
         <span class="fireball-icon">🔥</span> <!-- Fireball to the left -->
         Shaun Edwards
         <span class="fireball-icon">🔥</span> <!-- Fireball to the right -->
     </div>
+    <div class="sub-header">Olly Brooks</div>
+    <div class="sub-header">Gaz Rogers</div>
+    <div class="sub-header">Greg Crowson</div>
+    <div class="sub-header">Dean Nixon</div>
+    <div class="sub-header">Andy Saxton</div>
     <div class="sub-header">John James</div>
     <div class="sub-header">Ed Pidduck</div>
     <div class="sub-header">Carl Bilbey</div>
